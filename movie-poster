@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Movie Poster</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section>
+
+        <!--actors-->
+        <ul class="actors">
+          <li>Jane Doe</li>
+          <li>Juan Rayos</li>
+          <li>Meriam Ibrahim</li>
+        </ul>
+
+        <!--reviews-->
+        <blockquote>
+          <p>
+            "A masterpiece."
+          </p>
+          <footer><cite>Reviewer's name</cite></footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            "I laughed. I cried."
+          </p>
+          <footer><cite>Someone else</cite></footer>
+        </blockquote>
+
+        <blockquote>
+          <p>
+            "Movie of the decade."
+          </p>
+          <footer><cite>Someone else</cite></footer>
+        </blockquote>
+
+        <!--title-->
+        <h1>The Sunset</h1>
+        <h2>Just when you thought it was safe to go outside...</h2>
+
+        <footer class="credits">
+
+          <!--credits-->
+          <p><strong>Studio Name pictures</strong> and <strong>Producers</strong> present a <strong>Director</strong> film <strong>Actor 1</strong> <strong>Actor 2</strong>  in <strong>"Movie title"</strong></p>
+          <p> Music by <strong>The Musician</strong> Costume design by <strong>Designer name</strong> Edited by <strong>Editors name</strong> Production design by <strong>Designers name</strong></p>
+          <p> Director of photography <strong>Cinematogorapers name</strong> Executive producer <strong>Executive Producer 1</strong> </p>
+
+        </footer>
+      </section>
+    </div>
+
+    <!--style-->
+    <style>
+      body {
+        background-color:#051c1c;
+        /* Image */
+        background-image:url("https://i.imgur.com/we4wSVz.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: top center;
+        color:white;
+        font-family:'Trebuchet MS', sans-serif;  
+        text-align:center;     
+        padding:0; 
+      }
+      .wrapper {
+        margin:70px auto 30px;
+        max-width:850px;
+        padding:0px;
+        position: relative;
+
+        /* Text-shadow */
+        text-shadow: 5px 1px 4px black;
+      }
+      h1 , h2 {
+        font-family:georgia, serif;
+        font-style: italic;
+        font-weight: normal;
+      }
+      h1 {
+        font-size:116px;
+        letter-spacing: 2px;
+        margin-top:50px;
+        margin-bottom:0;
+        line-height: 1em;
+      }
+      h2 {
+        margin-top:30px;
+        margin-bottom:100px;  
+      }
+      .actors {
+        list-style-type: none;
+
+        text-transform: uppercase;
+        font-size: 20px;
+        margin:0 0 40px 0;
+      }
+      .actors li {
+        display: inline-block;
+        margin:0 20px;
+      }
+
+      blockquote {
+        display: inline-block;
+        width: 28%;
+        margin:0 2%;
+        font-size: 20px;
+      }
+      blockquote .star {
+        font-size: 40px;
+        display: block;
+      }
+      blockquote footer {
+        display: block;
+        font-size: 80%;
+      }
+
+      .credits {
+        text-transform: uppercase;
+        font-size:10px;
+      }
+      .credits strong {
+        font-size:17px;
+      }
+
+    </style>
+
+  </body>
+</html>
